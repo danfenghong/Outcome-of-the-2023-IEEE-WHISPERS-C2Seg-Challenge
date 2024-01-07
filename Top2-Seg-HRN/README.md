@@ -3,23 +3,23 @@
 Take AB dataset as example:
 ## 1 Train/test the model using HSI data
 ```
-python hsi_crop_trainval.py --mode train --config "/Top2-Seg-HRN/utils/train_cfg/AB_HSI.yaml"
-python hsi_crop_trainval.py --mode test --config "/Top2-Seg-HRN/utils/train_cfg/AB_HSI.yaml" --resume_path "/Top2-Seg-HRN/run/train/xxx/best_model.pt"
+python hsi_crop_trainval.py --mode train --config "/Top2-Seg-HRN/utils/train_cfg/AB_HRNet48.yaml"
+python hsi_crop_trainval.py --mode test --config "/Top2-Seg-HRN/utils/train_cfg/AB_HRNet48.yaml" --resume_path "/Top2-Seg-HRN/run/train/xxx/best_model.pt"
 ```
 ## 2 Train/test the model using MSI data
 ```
-python msi_crop_trainval.py --mode train --config "/Top2-Seg-HRN/utils/train_cfg/AB_MSI.yaml"
-python msi_crop_trainval.py --mode test --config "/Top2-Seg-HRN/utils/train_cfg/AB_MSI.yaml" --resume_path "/Top2-Seg-HRN/run/train/xxx/best_model.pt"
+python msi_crop_trainval.py --mode train --config "/Top2-Seg-HRN/utils/train_cfg/AB_HRNet48.yaml"
+python msi_crop_trainval.py --mode test --config "/Top2-Seg-HRN/utils/train_cfg/AB_HRNet48.yaml" --resume_path "/Top2-Seg-HRN/run/train/xxx/best_model.pt"
 ```
 ## 3 Train/test the model using SAR data
 ```
-python sar_crop_trainval.py --mode train --config "/Top2-Seg-HRN/utils/train_cfg/AB_SAR.yaml"
-python sar_crop_trainval.py --mode test --config "/Top2-Seg-HRN/utils/train_cfg/AB_SAR.yaml" --resume_path "/Top2-Seg-HRN/run/train/xxx/best_model.pt"
+python sar_crop_trainval.py --mode train --config "/Top2-Seg-HRN/utils/train_cfg/AB_HRNet48.yaml"
+python sar_crop_trainval.py --mode test --config "/Top2-Seg-HRN/utils/train_cfg/AB_HRNet48.yaml" --resume_path "/Top2-Seg-HRN/run/train/xxx/best_model.pt"
 ```
 ## 4 Train/test the model using multi-modal data
 ```
-python crop_trainval.py --mode train --config "/Top2-Seg-HRN/utils/train_cfg/AB_multimodal.yaml"
-python crop_trainval.py --mode test --config "/Top2-Seg-HRN/utils/train_cfg/AB_multimodal.yaml" --resume_path "/Top2-Seg-HRN/run/train/xxx/best_model.pt"
+python crop_trainval.py --mode train --config "/Top2-Seg-HRN/utils/train_cfg/AB_HRNet48.yaml"
+python crop_trainval.py --mode test --config "/Top2-Seg-HRN/utils/train_cfg/AB_HRNet48.yaml" --resume_path "/Top2-Seg-HRN/run/train/xxx/best_model.pt"
 ```
 
 ## 5 Fusing multiple models to improve performance
