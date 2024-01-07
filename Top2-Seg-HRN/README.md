@@ -22,7 +22,7 @@ python crop_trainval.py --mode train --config "/Top2-Seg-HRN/utils/train_cfg/AB_
 python crop_trainval.py --mode test --config "/Top2-Seg-HRN/utils/train_cfg/AB_HRNet48.yaml" --resume_path "/Top2-Seg-HRN/run/train/xxx/best_model.pt"
 ```
 
-## 5 Fusing multiple models to improve performance
+## 5 Fuse multiple models to improve performance
 ```
 python four_multi_model_fusion_trainval.py --mode test
 ```
