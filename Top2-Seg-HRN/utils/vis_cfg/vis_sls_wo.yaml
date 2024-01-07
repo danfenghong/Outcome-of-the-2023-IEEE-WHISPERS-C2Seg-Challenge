@@ -1,0 +1,38 @@
+DATASET:
+  AUG_CONFIG_PATH: /home/lufangxiao/GDANet/utils/augment_cfg/basic_cfg.yaml
+  STAT_PATH: /home/lufangxiao/roaddataset/deepglobe/deepglobe.yaml
+  TRAIN_DATASET_CSV: /home/lufangxiao/GDANet/data/deepglobe/deepglobe_train.csv
+  VAL_DATASET_CSV: /home/lufangxiao/GDANet/data/deepglobe/deepglobe_val.csv
+  TEST_DATASET_CSV: /home/lufangxiao/GDANet/data/deepglobe/deepglobe_test.csv
+  USE_AUG: True
+
+TRAIN:
+  EPOCHS: 300
+  NUM_WORKERS: 1
+  SAVE_INTERVAL: 10
+  BATCH_SIZE: 16
+  OPTIMIZER: AdamW
+  LR:
+    RATE: 0.001
+    BACKBONE_RATE: 0.0001
+    MOMENTUM: 0.99
+    WEIGHT_DECAY: 0.0001
+    BETA1: 0.5
+    BETA2: 0.999
+  LOSS:
+    NAME: CELoss
+    THRESH: 0.7
+    WEIGHT: None
+  SCHEDULER:
+    PATIENCE: 3
+    FACTOR: 0.2
+    EPS: 0.0005
+
+MODEL:
+  NAME: Swin_LinkNet_SUA_wo_vis
+  # NAME: DLinkNet
+  IMG_CH: 3
+  N_CLASSES: 2
+  PRETRAINED: True
+  RESUME_PATH: /home/lufangxiao/GDANet/models/backbone/pretrained/swin_small_patch4_window7_224.pth
+  # RESUME_PATH: /home/lufangxiao/GDANet/models/backbone/pretrained/resnet50-19c8e357.pth

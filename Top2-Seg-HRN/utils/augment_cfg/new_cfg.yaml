@@ -1,0 +1,21 @@
+AUGMENTATION:
+  SEED: 42 # int or 'None'
+  CROP_SIZE: [1024, 1024] # int or list (corresponding to (width, height) when cropped width does not equals to cropped height)
+  RESIZE_SCALES: [0.85, 1, 1.15]
+  RESIZE_MODE: scale
+  ROTATE_ANGLES: [0, 90, 180, 270] # which can be int or list
+  HFIP_PROB: 0.5
+  VFIP_PROB: 0.5
+  SHIFTING: 0.1 # the ratio of offset and image size
+  CROP_ROTATE_MAX_ANGLE: 45 # the max angle of arbitrary rotating
+  CROP_ROTATE_MAX_CENTER_DISTANCE: 0.2 # the ratio of max distance between center and corner, which should be a subset of [0,0.5]
+  BRIGHTNESS: [0.5, 1.5] # generate brightness factor in this range, which should be a subset of [0,2] 
+  COLOR: [0.5, 1.5] # generate saturation factor in this range, which should be a subset of [0,2]
+  CONTRAST: [0.5, 1.5] # generate saturation factor in this range, which should be a subset of [0,2]
+  SHARPNESS: [0.5, 1.5] # generate sharpness factor in this range, which should be a subset of [0,2]
+  MOSAIC: False # whether to use mosaic operation
+  MOSAIC_NUM: 4 # generate mosaic image with images of this number
+
+COMPOSE:
+  AUGS: ['random_rotate', 'random_vflip', 'random_hflip'] #, 'random_image_shifting'] # You can add or delete the content in the list according to your needs
+  BEFORE_MOSAIC: True # conduct composed augments before (False means after) mosaic operation
