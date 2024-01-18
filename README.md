@@ -1,6 +1,6 @@
 # Cross-city Semantic Segmentation (C2Seg) in Multimodal Remote Sensing: Outcome of the 2023 IEEE WHISPERS C2Seg Challenge
 
-Yuheng Liu, Ye Wang, Yifan Zhang, Shaohui Mei, Jiaqi Zou, Zhuohong Li, Fangxiao Lu, Wei He, Hongyan Zhang, Huilin Zhao, Chuan Chen, Cong Xia, Hao Li, Gemine Vivone, IEEE, Ronny Hansch, Gulsen Taskin, Jing Yao, Kai(Alex) Qin, Bing Zhang, Jocelyn Chanussot, and Danfeng Hong
+Yuheng Liu, Ye Wang, Yifan Zhang, Shaohui Mei, Jiaqi Zou, Zhuohong Li, Fangxiao Lu, Wei He, Hongyan Zhang, Huilin Zhao, Chuan Chen, Cong Xia, Hao Li, Gemine Vivone, Ronny Hansch, Gulsen Taskin, Jing Yao, Kai(Alex) Qin, Yuan-Sen Ting, Bing Zhang, Jocelyn Chanussot, and Danfeng Hong
 
 ___________
 
@@ -12,7 +12,7 @@ Citation
 
 **Please kindly cite the papers if this code is useful and helpful for your research.**
 
-Yuheng Liu, Ye Wang, Yifan Zhang, Shaohui Mei, Jiaqi Zou, Zhuohong Li, Fangxiao Lu, Wei He, Hongyan Zhang, Huilin Zhao, Chuan Chen, Cong Xia, Hao Li, Gemine Vivone, IEEE, Ronny Hansch, Gulsen Taskin, Jing Yao, Kai(Alex) Qin, Bing Zhang, Jocelyn Chanussot, and Danfeng Hong. Cross-city Semantic Segmentation (C2Seg) in Multimodal Remote Sensing: Outcome of the 2023 IEEE WHISPERS C2Seg Challenge. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (under review)
+Yuheng Liu, Ye Wang, Yifan Zhang, Shaohui Mei, Jiaqi Zou, Zhuohong Li, Fangxiao Lu, Wei He, Hongyan Zhang, Huilin Zhao, Chuan Chen, Cong Xia, Hao Li, Gemine Vivone, IEEE, Ronny Hansch, Gulsen Taskin, Jing Yao, Kai(Alex) Qin, Yuan-Sen Ting, Bing Zhang, Jocelyn Chanussot, and Danfeng Hong. Cross-city Semantic Segmentation (C2Seg) in Multimodal Remote Sensing: Outcome of the 2023 IEEE WHISPERS C2Seg Challenge. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (under review)
 
      @article{
      }
@@ -42,5 +42,6 @@ Contact Information:
 Hao Li: leebobgiser316@gmail.com<br>
 Danfeng Hong: hongdanfeng1989@gmail.com<br>
 
-H. Li is with the Technical University of Munich, Germany; Department of Aerospace and Geodesy, Professorship of Big Geospatial Data Management.
+Hao Li is with the Technical University of Munich, Germany; Department of Aerospace and Geodesy, Professorship of Big Geospatial Data Management.
+
 Danfeng Hong is with the Aerospace Information Research Institute, Chinese Academy of Sciences, 100094 Beijing, China.
